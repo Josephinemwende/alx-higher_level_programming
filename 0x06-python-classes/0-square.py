@@ -1,4 +1,8 @@
 #!/usr/bin/python3
+
+"""Define a class called Square"""
+
+
 class Square:
-    """python3 -c 'print(__import__("0-square").MySquare.__doc__)'"""
+    """represent a square"""
     pass
