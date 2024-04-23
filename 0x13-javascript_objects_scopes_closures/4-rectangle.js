@@ -13,6 +13,7 @@ class Rectangle {
         row += 'X';
       }
       console.log(row);
+      row = '';
     }
   }
   rotate () {
