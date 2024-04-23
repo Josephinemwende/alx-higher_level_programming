@@ -8,11 +8,11 @@ class Rectangle {
   }
   print () {
     for (let i = 0; i < this.height; i++) {
-      let y = '';
+      let x = '';
       for (let j = 0; j < this.width; j++) {
-        y += 'X';
+        x += 'X';
       }
-      console.log(y);
+      console.log(x);
     }
   }
   rotate () {
