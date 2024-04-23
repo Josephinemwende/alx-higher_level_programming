@@ -7,12 +7,12 @@ class Rectangle {
     }
   }
   print () {
+    let row = '';
     for (let i = 0; i < this.height; i++) {
-      let x = '';
       for (let j = 0; j < this.width; j++) {
-        x += 'X';
+        row += 'X';
       }
-      console.log(x);
+      console.log(row);
     }
   }
   rotate () {
