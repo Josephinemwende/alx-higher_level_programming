@@ -6,19 +6,21 @@ class Rectangle {
       this.height = h;
     }
   }
+
   print () {
-    let row = '';
     for (let i = 0; i < this.height; i++) {
+      let x = '';
       for (let j = 0; j < this.width; j++) {
-        row += 'X';
+        x += 'X';
       }
-      console.log(row);
-      row = '';
+      console.log(x);
     }
   }
+
   rotate () {
     [this.width, this.height] = [this.height, this.width];
   }
+
   double () {
     this.width *= 2;
     this.height *= 2;
