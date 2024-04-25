@@ -1,4 +1,5 @@
 #!/usr/bin/node
+
 const [arg] = process.argv.slice(2);
 function factorial (n) {
   if( isNaN(n) || n === 0) {
