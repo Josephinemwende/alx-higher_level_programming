@@ -5,5 +5,7 @@ Separated by a comma
 Ascending order, with two digits
 """
 for numbers in range(0, 100):
-    print("{:02d},".format(numbers) + " ", end="")
-print()
+    if numbers < 99:
+        print("{:02d}, ".format(numbers), end="")
+    else:
+        print("{:02d}".format(numbers))
