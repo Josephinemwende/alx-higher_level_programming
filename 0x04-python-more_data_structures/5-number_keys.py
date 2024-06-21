@@ -3,4 +3,4 @@
 
 
 def number_keys(a_dictionary):
-    list(a_dictionary)
+    count(list(a_dictionary))
